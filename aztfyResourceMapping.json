@@ -1,0 +1,62 @@
+{
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/AZCLOUDVM/providers/Microsoft.Compute/virtualMachines/azcloudvm": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/AZCLOUDVM/providers/Microsoft.Compute/virtualMachines/azcloudvm",
+		"resource_type": "azurerm_linux_virtual_machine",
+		"resource_name": "res-0"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm",
+		"resource_type": "azurerm_resource_group",
+		"resource_name": "res-1"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Compute/virtualMachines/azcloudvm/extensions/AADSSHLoginForLinux": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Compute/virtualMachines/azcloudvm/extensions/AADSSHLoginForLinux",
+		"resource_type": "azurerm_virtual_machine_extension",
+		"resource_name": "res-2"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkInterfaces/azcloudvm213_z1": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkInterfaces/azcloudvm213_z1",
+		"resource_type": "azurerm_network_interface",
+		"resource_name": "res-3"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkInterfaces/azcloudvm213_z1/networkSecurityGroups/L3N1YnNjcmlwdGlvbnMvMWRhMDgzNWItZTc3Zi00MzFlLWE0MGYtNWM2MjZlNmQ4MzNjL3Jlc291cmNlR3JvdXBzL2F6Y2xvdWR2bS9wcm92aWRlcnMvTWljcm9zb2Z0Lk5ldHdvcmsvbmV0d29ya1NlY3VyaXR5R3JvdXBzL2F6Y2xvdWR2bS1uc2c=": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkInterfaces/azcloudvm213_z1|/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkSecurityGroups/azcloudvm-nsg",
+		"resource_type": "azurerm_network_interface_security_group_association",
+		"resource_name": "res-4"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkSecurityGroups/azcloudvm-nsg": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkSecurityGroups/azcloudvm-nsg",
+		"resource_type": "azurerm_network_security_group",
+		"resource_name": "res-5"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkSecurityGroups/azcloudvm-nsg/securityRules/AllowMyIpAddressHTTPInbound": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkSecurityGroups/azcloudvm-nsg/securityRules/AllowMyIpAddressHTTPInbound",
+		"resource_type": "azurerm_network_security_rule",
+		"resource_name": "res-6"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkSecurityGroups/azcloudvm-nsg/securityRules/AllowMyIpAddressHTTPSInbound": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkSecurityGroups/azcloudvm-nsg/securityRules/AllowMyIpAddressHTTPSInbound",
+		"resource_type": "azurerm_network_security_rule",
+		"resource_name": "res-7"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkSecurityGroups/azcloudvm-nsg/securityRules/default-allow-ssh": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/networkSecurityGroups/azcloudvm-nsg/securityRules/default-allow-ssh",
+		"resource_type": "azurerm_network_security_rule",
+		"resource_name": "res-8"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/publicIPAddresses/azcloudvm-ip": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/publicIPAddresses/azcloudvm-ip",
+		"resource_type": "azurerm_public_ip",
+		"resource_name": "res-9"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/virtualNetworks/azcloudvm-vnet": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/virtualNetworks/azcloudvm-vnet",
+		"resource_type": "azurerm_virtual_network",
+		"resource_name": "res-10"
+	},
+	"/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/virtualNetworks/azcloudvm-vnet/subnets/default": {
+		"resource_id": "/subscriptions/1da0835b-e77f-431e-a40f-5c626e6d833c/resourceGroups/azcloudvm/providers/Microsoft.Network/virtualNetworks/azcloudvm-vnet/subnets/default",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-11"
+	}
+}
